@@ -18,7 +18,7 @@ document.getElementById("container1").innerHTML = element1;
             ),
             React.createElement('p', null, new Date().toLocaleTimeString())
             );
-      ReactDom.render(element2, document.getElementById("container2"))
+      ReactDOM.render(element2, document.getElementById("container2"))
 }
 setInterval(setTimer, 1000);
 
